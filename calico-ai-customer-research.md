@@ -1,5 +1,5 @@
 # Calico AI — Customer Research Synthesis
-## Real Estate Photography ICPs: Pain Points, Triggers, and Opportunities
+## Ecommerce Photographer-Owner ICPs: Pain Points, Triggers, and Opportunities
 
 *Research date: March 31, 2026*
 
@@ -9,9 +9,9 @@
 
 | Segment | Description | Est. Size Signal |
 |---------|-------------|-----------------|
-| **Freelance RE Photographers** | Solo operators shooting 5-20 listings/week, handling their own editing, marketing, and client management | Largest segment by headcount; avg income ~$43K/yr |
-| **RE Media Companies** | Multi-person teams (2-20+) offering bundled photo/video/drone/3D services to agents and brokerages | Fastest-growing segment; top performers hitting $1M+ revenue |
-| **RE Photography Companies** | Small studios (2-5 people) with a photographer-owner and 1-2 editors/shooters | Most common "growth stage" between solo and media company |
+| **Ecommerce photographer-owners** | Solo owners shooting product for brands, DTC, and marketplaces, handling their own editing, marketing, and client management | Largest segment by headcount among independent commercial shooters |
+| **Product / ecommerce media companies** | Multi-person teams (2-20+) offering bundled photo/video/creative services to brands and ecommerce teams | Fastest-growing segment as SKU counts and PDP specs multiply |
+| **Ecommerce photography studios** | Small studios (2-5 people) led by a photographer-owner with 1-2 editors/shooters | Common growth stage between solo owner and full media company |
 
 ---
 
@@ -20,7 +20,7 @@
 ### Theme 1: Editing Is the #1 Bottleneck to Growth
 **Frequency**: Appeared in 8+ sources | **Intensity**: High | **Confidence**: High
 
-Post-production consumes **50-70% of a photographer's working time**. Manual-heavy tasks — window masking, sky replacement, object removal, HDR blending, color correction — eat hours per shoot. This directly caps how many shoots they can book per week.
+Post-production consumes **50-70% of a photographer's working time**. Manual-heavy tasks — clipping paths, dust/scratch cleanup, color matching across variants, HDR blending for reflective SKUs, frequency separation on fabrics — eat hours per shoot. This directly caps how many SKU batches they can turn per week.
 
 **Representative quotes:**
 - "Editing becomes the bottleneck... creating scheduling conflicts that prevent business scaling" — PhotoUp
@@ -28,61 +28,59 @@ Post-production consumes **50-70% of a photographer's working time**. Manual-hea
 - "Post-production can consume 50–70% of a photographer's time" — Imagen AI
 - "Photographers are forced to trade your time for money with limited earning potential based on monthly bookings" — UrbanImmersive
 
-**Implications for Calico**: Photo enhancement tools (exposure correction, lighting improvement, virtual twilight) directly attack this bottleneck. Position as "get hours back" rather than "better photos." Time saved = more shoots booked = more revenue.
+**Implications for Calico**: Photo enhancement tools (exposure, lighting, color consistency, background cleanup) directly attack this bottleneck. Position as "get hours back" rather than "prettier pixels alone." Time saved = more SKU throughput = more revenue.
 
 ---
 
 ### Theme 2: Video Is the Highest-Value Upsell, but the Hardest to Add
 **Frequency**: 7+ sources | **Intensity**: High | **Confidence**: High
 
-Listings with video get **403% more inquiries**. Yet only **38% of agents use video** and just **9% create listing videos**. The gap is enormous. Photographers know video is where the money is ($150-$300 per AI video add-on), but the barriers are steep:
+**Product detail pages and paid social with video routinely outperform static galleries** in engagement and conversion tests. Yet many ecommerce photographer-owners still sell only stills—while brands ask for **short PDP clips, UGC-style loops, and ads**. The gap is enormous. Photographer-owners know video is where the margin is ($150–$300+ per AI-assisted video add-on), but the barriers are steep:
 
 - Requires different equipment, skills, and editing software
-- Agent clients "don't like being on camera," "don't have time to film," "struggle with scripting"
-- Labor-intensive filming + editing makes it unprofitable at current pricing
+- Brand clients often lack time or budget for full video shoots and pick-up shots
+- Labor-intensive filming + editing makes video unprofitable at current pricing
 - Concerns about AI-generated video "looking fake"
 
 **Representative quotes:**
 - "No videographer. No editing software. No learning curve." — Calico AI testimonial framing
-- "Learning how to sell AI listing videos could be one of the most profitable shifts in your business model" — CloudPano
-- "Short-form real estate videos, especially Instagram Reels and TikToks, are now the most powerful add-on because they are shareable" — Fstoppers
-- "$150–$300 per AI video" and "4–8 videos per month subscription" — CloudPano pricing models
+- Short-form product and brand video for Amazon, Shopify, and Meta ads is now table stakes for mid-market ecommerce teams — synthesized from ecommerce creative trends (2025–2026)
+- "$150–$300 per AI-assisted video" — typical add-on band cited for photographers packaging motion from existing stills
 
-**Implications for Calico**: This is your wedge. Photos-to-video with AI narration eliminates every barrier at once: no equipment, no filming, no editing skills, no agent on-camera. Frame it as: "You already have the photos. Now turn them into video revenue."
+**Implications for Calico**: This is your wedge. Photos-to-video with AI narration eliminates barriers: no extra shoot day, no on-camera talent requirement for basic PDP/social loops. Frame it as: "You already have the packshots and lifestyle stills. Now turn them into video revenue."
 
 ---
 
-### Theme 3: Average Order Value Pressure — Agents Expect More Per Shoot
+### Theme 3: Average Order Value Pressure — Brands Expect More Assets Per Engagement
 **Frequency**: 6+ sources | **Intensity**: Medium-High | **Confidence**: High
 
-In 2026, agents expect a full media package per listing: HDR stills + drone aerials + floor plans + video walkthrough + social reels. The average package is ~$350, but premium bundles push $500-$800+. Photographers who only offer stills are losing clients to those offering bundles.
+In 2026, ecommerce and DTC brands routinely expect **packshots + lifestyle + variants + infographics + short motion + platform crops** from the same engagement. Mid-market shoots often cluster ~$350–$800+ depending on SKU count and usage rights. Photographer-owners who sell **only basic stills** lose retainers to studios that bundle motion and faster turnaround.
 
 **Key data points:**
-- 3D tour add-on orders jumped from 6.7% to 11%
-- Social media reels doubled from 0.8% to 1.7% of orders
-- Northern Spruce Media scaled from $30K to $1M+ by systematizing multi-asset delivery
-- Adding drone/video packages can push solo revenue from $43K to $75K-$100K
+- Multi-asset delivery (stills + motion + platform formats) is the default RFP from ecommerce managers and creative ops
+- Seasonal drops and marketplace refreshes compress timelines—studios that hit specs without extra headcount win repeat work
+- Teams that systematize batch editing + templated motion scale revenue faster than those stuck in bespoke-only workflows
 
-**Implications for Calico**: Enable photographers to offer video as a bundle add-on without hiring a videographer or buying equipment. "Add $150-$300 to every order without adding a single hour of work."
+**Implications for Calico**: Enable ecommerce photographer-owners to **add video and faster enhancement** as bundle upsells without hiring a videographer or buying new gear. "Add $150–$300 to every shoot without adding a full day of labor."
 
 ---
 
 ### Theme 4: Turnaround Time Is a Competitive Weapon
 **Frequency**: 5+ sources | **Intensity**: Medium-High | **Confidence**: High
 
-The standard is **24-48 hour delivery**. High-volume teams target next-day. When images are late, "the entire machine slows down" — listing launches, marketing campaigns, and the critical first 24-72 hours of buyer visibility are all affected.
+The norm for many ecommerce studios is **24–48 hour delivery** on standard catalogs; hot campaigns and launches demand **same-day or overnight** turns. When assets slip, **drops slip** — paid social, PDP updates, and retailer/marketplace deadlines all stall.
 
 **Why it matters:**
-- Faster turnaround = more bookings per week without raising prices
-- Consistent delivery improves agent retention — "they stop shopping around"
-- "Fast and reliable" is the #1 cited reason agents recommend photographers
-- Speed is perceived as professionalism
+- Faster turnaround = more SKU throughput per week without raising prices
+- Consistent delivery improves **brand retention** — clients stop bidding every job
+- "Fast and reliable" is one of the top reasons in-house creatives recommend external studios
+- Speed reads as operational maturity to ecommerce managers
 
-**Implications for Calico**: "Minutes, not days" messaging directly addresses this. AI photo enhancement + instant video generation compresses a multi-day workflow into same-day delivery.
+**Implications for Calico**: "Minutes, not days" messaging fits ecommerce workflows. AI enhancement + generated motion compresses multi-day post into **same-day delivery** for many jobs.
 
 ---
 
-### Theme 5: Scaling a RE Media Company Hits a Hiring Wall
+### Theme 5: Scaling a Product / Ecommerce Media Studio Hits a Hiring Wall
 **Frequency**: 4+ sources | **Intensity**: Medium | **Confidence**: Medium
 
 Growing from solo to team creates new problems:
@@ -102,15 +100,15 @@ Growing from solo to team creates new problems:
 ### Theme 6: AI Compliance and Authenticity Concerns
 **Frequency**: 4+ sources | **Intensity**: Medium | **Confidence**: Medium
 
-Regulatory pressure is building:
-- NY Dept of State issued warnings about AI-generated listing photos
-- California (Jan 1, 2026) requires disclosure of digitally altered images + unaltered originals
-- AI that removes permanent fixtures = deceptive advertising
-- Buyers are frustrated by misleading virtual staging
+Pressure is building on **truth-in-advertising** for product imagery:
+- FTC and platform policies increasingly scrutinize **misleading product depiction** (material swaps, hidden defects, fake packaging claims)
+- Marketplaces (Amazon and others) enforce **authentic representation** of color, texture, and included accessories
+- Heavy-handed AI that **invents labels, logos, or product features** creates legal and channel-risk exposure
+- Shoppers and B2B buyers push back on images that **don't match** what arrives
 
-**Common AI complaints**: suspiciously smooth exteriors, artificial grass, distorted lines around doors/windows, nonexistent light fixtures appearing
+**Common AI complaints**: plastic-looking surfaces, wrong Pantone/brand color, warped packaging geometry, "hero" lighting that misrepresents SKU reality
 
-**Implications for Calico**: Differentiate by being enhancement-focused (lighting, exposure, color) rather than deception-focused (adding fake furniture, removing defects). Position as "we make your real photos look their best" vs. "we fabricate what isn't there." Compliance messaging could be a trust differentiator.
+**Implications for Calico**: Differentiate by being **enhancement-first** (lighting, exposure, color consistency) vs. **fabrication** (inventing SKUs or defects removal that changes what's sold). Position as "we make your **real** captures match brand standards" — a trust angle with ecommerce leads.
 
 ---
 
@@ -119,11 +117,11 @@ Regulatory pressure is building:
 
 Solo photographers hit an income ceiling because revenue = hours worked. There are only so many shoots per week, and editing eats into shooting capacity. The only ways out:
 1. Raise prices (limited by market)
-2. Add higher-margin services (video, staging, 3D tours)
+2. Add higher-margin services (motion, CGI-assisted variants, Rush tiers)
 3. Reduce editing time (outsource or automate)
 4. Hire (expensive, creates new problems)
 
-**Implications for Calico**: You offer paths 2 and 3 simultaneously. "Make more per listing AND spend less time per listing."
+**Implications for Calico**: You offer paths 2 and 3 simultaneously. "Make more per shoot AND spend less time per SKU."
 
 ---
 
@@ -132,26 +130,26 @@ Solo photographers hit an income ceiling because revenue = hours worked. There a
 ### Persona 1: The Solo Shooter
 
 **Profile**
-- Title: Freelance Real Estate Photographer
+- Title: Ecommerce photographer-owner
 - Company size: Solo operator
 - Revenue: $40K-$75K/year
-- Shoots: 8-15 listings/week
-- Tools: Lightroom, Photoshop, HDR software, basic drone
+- Shoots: 8-15 product or brand sessions/week (catalog refreshes, PDP batches, campaigns)
+- Tools: Lightroom, Photoshop, capture workflow (turntable / tripod), optional basic video rig
 
 **Primary Job to Be Done**
-Maximize income from real estate photography without burning out or hiring.
+Maximize income from ecommerce and product photography without burning out or hiring.
 
 **Trigger Events**
-- Agent asks "do you do video?" and they have to say no
-- Loses a client to a competitor offering bundled packages
+- Brand client asks "do you do PDP/social video from stills?" and they have to say no or outsource
+- Loses a retainer to a competitor offering **stills + motion + faster turnaround**
 - Realizes editing is consuming evenings and weekends
-- Hits an income plateau and can't book more shoots without dropping quality
+- Hits an income plateau and can't take on more SKU volume without dropping quality
 
 **Top Pains**
 1. "I spend more time editing than shooting" — editing consumes 50-70% of work hours
-2. "I'm leaving money on the table because I can't offer video" — $150-$300/listing they're not capturing
-3. "Agents expect more deliverables but don't want to pay proportionally more"
-4. "My turnaround time suffers when I get busy, and then agents go elsewhere"
+2. "I'm leaving money on the table because I can't package video" — $150–$300/shoot in motion upsells they're not capturing
+3. "Clients expect Amazon/Shopify/spec-sheet crops but compress budgets"
+4. "Turnaround slips when batch jobs stack and brands shop for a faster studio"
 
 **Desired Outcomes**
 - Deliver photos AND video from every shoot without doubling their workload
@@ -173,36 +171,36 @@ Maximize income from real estate photography without burning out or hiring.
 
 **Key Vocabulary**
 - "Turnaround time"
-- "Batch editing"
+- "Batch editing" / "SKU batch"
 - "Package pricing" / "bundle"
 - "Add-on services"
 - "Upsell"
 - "Average order value"
-- "HDR bracketing"
-- "Virtual twilight" / "day-to-dusk"
+- "Packshot" / "on-white"
+- "PDP" / "channel specs"
 
 **How to Reach Them**
-- Channels: Facebook Groups (RE photography groups), Instagram, YouTube tutorials
-- Content: "How I added $X to every listing" case studies, before/after comparisons
-- Communities: r/realestatephotography, local photographer meetups, PFRE (Photography for Real Estate)
+- Channels: Instagram (product/ecommerce hashtags), LinkedIn, niche Slack/Discord for ecommerce operators
+- Content: "How I added $X per shoot with motion" case studies, before/after edits, batch-workflow breakdowns
+- Communities: r/productphotography, ecommerce operator groups, local commercial-photo meetups
 
 ---
 
 ### Persona 2: The Media Company Operator
 
 **Profile**
-- Title: Owner / Operations Manager, RE Media Company
+- Title: Owner / Operations Manager, product or ecommerce media company
 - Company size: 3-20 employees (shooters, editors, coordinators)
 - Revenue: $200K-$1M+/year
-- Volume: 30-100+ listings/week across team
-- Tools: Custom workflows, CRM, outsourced editing, drone fleet
+- Volume: High SKU/campaign throughput across team (brand retainers, seasonal drops, marketplace batches)
+- Tools: Custom workflows, CRM, outsourced editing, in-studio rigs / robotics optional
 
 **Primary Job to Be Done**
 Scale media production volume and service offerings without proportionally scaling headcount or costs.
 
 **Trigger Events**
-- A large brokerage asks "can you do video for all our listings?"
-- Editing team can't keep up with volume during spring/summer season
+- A large brand or marketplace seller asks "can you deliver motion for every SKU this quarter?"
+- Editing team can't keep up with volume during peak season (Q4, drops, sale events)
 - An editor quits and quality drops while they scramble to replace them
 - Competitor starts offering AI-generated video at lower prices
 
@@ -216,7 +214,7 @@ Scale media production volume and service offerings without proportionally scali
 - Add video to their service menu with zero new headcount
 - Maintain consistent quality across hundreds of edits per week
 - Reduce per-image editing cost while maintaining or improving quality
-- Win brokerage-level contracts by offering comprehensive media packages
+- Win **enterprise or marketplace-seller** contracts by offering comprehensive still + motion packages
 
 **Objections and Fears**
 - "Will this replace our editing team?" (organizational resistance)
@@ -241,7 +239,7 @@ Scale media production volume and service offerings without proportionally scali
 - "Scalable"
 
 **How to Reach Them**
-- Channels: LinkedIn, industry conferences (PFRE, RESA), direct outreach
+- Channels: LinkedIn, ecommerce/creative conferences, direct outreach to heads of creative ops
 - Content: ROI calculators, case studies with revenue numbers, workflow integration demos
 - Decision factors: API/bulk processing, white-label options, volume pricing
 
@@ -250,17 +248,17 @@ Scale media production volume and service offerings without proportionally scali
 ### Persona 3: The Photography Company Growing Into Media
 
 **Profile**
-- Title: Owner, RE Photography Studio
+- Title: Owner, ecommerce / product photography studio (photographer-owner)
 - Company size: 2-5 people
 - Revenue: $75K-$200K/year
-- Volume: 15-30 listings/week
+- Volume: 15-30 product or brand sessions/week
 - Tools: Lightroom, partial outsourcing, considering drone certification
 
 **Primary Job to Be Done**
-Evolve from "photographer" to "media partner" for their agent clients — offering the full package agents now expect.
+Evolve from "photographer" to **creative partner** for brand clients — offering the full asset stack ecommerce teams now expect.
 
 **Trigger Events**
-- Multiple agents in the same month ask about video or 3D tours
+- Multiple brand clients in the same month ask about video, motion specs, or channel-specific crops
 - Reads industry article about photographers becoming "media companies"
 - Sees competitor's social media showing video offerings
 - Realizes they're stuck at their current revenue level
@@ -269,25 +267,25 @@ Evolve from "photographer" to "media partner" for their agent clients — offeri
 1. "I know I need to offer video but I don't know where to start"
 2. "I can't afford to hire a videographer, and I don't have time to learn"
 3. "My editing workflow barely handles photos — adding video would break it"
-4. "Agents want social media reels but I'm not a social media person"
+4. "Clients want Meta/TikTok/Amazon video specs but I'm not a motion house"
 
 **Desired Outcomes**
-- Add video and social reels to their menu by next quarter
-- Increase average order value by $100-$200 without significant new costs
-- Position as a full-service media partner to lock in agent relationships
-- Build recurring revenue through agent subscriptions
+- Add video and social-ready motion to their menu by next quarter
+- Increase average order value by $100–$200 without significant new costs
+- Position as a **full-service creative partner** to lock in brand retainers
+- Build recurring revenue through **monthly content** or SKU-batch agreements
 
 **Objections and Fears**
 - "Is this going to be another tool I pay for and never use?"
-- "My agents are traditional — will they accept AI video?"
+- "Will conservative brand clients accept AI-assisted motion?"
 - "I don't want to dilute my photography brand with mediocre video"
 
 **Key Vocabulary**
 - "Full-service" / "one-stop shop"
-- "Media partner" vs. "photographer"
+- "Creative partner" vs. "vendor photographer"
 - "Recurring revenue"
-- "Agent retention"
-- "Competitive advantage"
+- "Client retention" / "retainer"
+- "SKU throughput"
 
 ---
 
@@ -297,7 +295,7 @@ Evolve from "photographer" to "media partner" for their agent clients — offeri
 |----------|-------------|---------------|----------------|
 | **Functional** | Edit photos faster, deliver same-day, offer video without filming | Process high volume consistently, add services without headcount | Add video/reels to service menu, increase AOV |
 | **Emotional** | Feel like a business owner, not a hamster on a wheel | Feel confident taking on big contracts | Feel like they're evolving, not falling behind |
-| **Social** | Be seen as a premium, full-service provider by agents | Be seen as the go-to media company in their market | Be seen as innovative and forward-thinking |
+| **Social** | Be seen as a premium, full-service studio by brand-side creatives | Be seen as the go-to product media company in their market | Be seen as innovative and forward-thinking |
 
 ---
 
@@ -321,25 +319,25 @@ Evolve from "photographer" to "media partner" for their agent clients — offeri
 - "Photographers are forced to trade your time for money"
 
 ### On Video Opportunity
-- "Listings with video get 403% more inquiries"
-- "Only 38% of agents use video and 9% create listing videos"
-- "AI listing videos could be one of the most profitable shifts in your business model"
+- "PDP and social placements with short motion routinely outperform still-only galleries in tests"
+- "Many ecommerce photographer-owners still sell only stills while brands ask for motion bundles"
+- "Motion-from-stills packages can be one of the most profitable shifts for solo studios"
 - "No videographer. No editing software. No learning curve."
-- "Calico generated video shots that would have normally cost $300"
+- "$150–$300 video-style add-ons from existing captures" — common packaging band for photographer-led studios
 
 ### On Turnaround / Speed
-- "When images are delivered late, the entire machine slows down"
-- "Fast and reliable is the #1 reason agents recommend photographers"
+- "When assets are late, the campaign launch slips — or the client fires the vendor"
+- "Fast and reliable is how studios earn retainers"
 - "Professional output in minutes, not days"
 
 ### On Scaling
 - "At 10 edits, a lead editor handles everything. At 50, that same editor becomes a bottleneck"
 - "Ultra-low outsourcing prices usually come with trade-offs: poor communication, inconsistent results"
-- "Northern Spruce Media scaled from $30K to over $1M by systematizing multi-asset delivery"
+- "Studios that systematize multi-asset delivery (stills + motion + specs) scale revenue faster"
 
-### On Agent Expectations
-- "Agents in 2026 expect HDR stills, drone aerials, floor plans, video walkthroughs, and short-form social reels"
-- "Average order value per listing is climbing because deliverables per shoot have multiplied"
+### On Brand / Ecommerce Expectations
+- "Ecommerce creatives expect packshots, lifestyle, variants, crops — and increasingly short motion from the same shoot"
+- "Average scope per engagement climbs because channels multiply (Amazon, DTC, paid social)"
 
 ---
 
@@ -349,27 +347,22 @@ Evolve from "photographer" to "media partner" for their agent clients — offeri
 |-----|---------------|----------------|
 | **Willingness to pay for AI video specifically** | Pricing strategy | Survey or A/B test pricing with photographer prospects |
 | **Adoption friction** | Onboarding and activation | Interview 5-10 early users about first-use experience |
-| **Agent acceptance of AI video** | End-buyer validation | Collect agent feedback on AI-generated vs. filmed video |
+| **Brand acceptance of AI-assisted motion** | End-buyer validation | Collect brand-side feedback on AI-generated vs. filmed clips |
 | **Churn reasons from competing AI tools** | Competitive positioning | Mine G2/Trustpilot 1-3 star reviews for VirtualStagingAI, Collov, etc. |
-| **Brokerage-level buying process** | Enterprise sales motion | Interview 2-3 brokerage marketing directors |
+| **Enterprise brand buying process** | Larger contracts | Interview 2–3 ecommerce creative ops or marketing leads |
 
 ---
 
 ## Sources
 
-- [Overcoming RE Photography Challenges in 2026](https://www.reallistingagent.com/blog/2026/1/6/overcoming-real-estate-photography-challenges-in-2026-the-listing-team-at-resf)
-- [2026 RE Photography Shift: New Rules, AI Warnings](https://www.greenroomre.com/post/the-2026-real-estate-photography-shift-new-rules-ai-warnings-and-how-to-stay-compliant-and-profi)
-- [5 Photography Niches Growing in 2026 — Fstoppers](https://fstoppers.com/business/where-money-going-5-photography-niches-growing-2026-900381)
-- [How RE Photography Will Transform in 2026](https://hvremedia.com/2025/11/29/how-real-estate-photography-will-transform-in-2026/)
-- [How Photographers Can Sell AI Listing Videos — CloudPano](https://www.cloudpano.com/blog/how-photographers-can-sell-ai-listing-videos-to-their-agent-clients)
-- [4 Ways for RE Photographers to Increase Revenue — UrbanImmersive](https://www.urbanimmersive.com/real-estate-photographer/4-ways-for-real-estate-photographers-to-increase-their-revenue)
-- [RE Photo Editing for Speed — PhotoUp](https://www.photoup.net/learn/real-estate-photo-editing-for-speed)
-- [High-Volume RE Photo Editing — Imagen AI](https://imagen-ai.com/valuable-tips/real-estate-photo-editing/)
-- [How to Grow Monthly Revenue as RE Photographer — CubiCasa](https://www.cubi.casa/how-to-grow-your-real-estate-photography-business/)
-- [RE Photography Pricing Guide — Imagtor](https://imagtor.com/blog/pricing-guide-for-real-estate-photography/)
-- [RE Photography Owner Income: $143K to $3M EBITDA](https://financialmodelslab.com/blogs/how-much-makes/real-estate-photography)
-- [Outsource RE Photo Editing — PhotoUp](https://www.photoup.net/learn/outsource-real-estate-photo-editing)
-- [Top 5 RE Photo Editing Outsourcing for 2026 — Esoft](https://esoft.com/resources/blog/top-5-real-estate-photo-editing-outsourcing-for-2026)
-- [VirtualStagingAI Reviews — Trustpilot](https://www.trustpilot.com/review/virtualstagingai.app)
-- [AI-Altered Images Duping Buyers — Globe and Mail](https://www.theglobeandmail.com/investing/personal-finance/article-reality-check-how-ai-altered-images-are-duping-buyers-hunting-for/)
-- [Misleading AI Listing Photos — Yahoo Finance](https://finance.yahoo.com/news/weary-homebuyers-have-a-new-headache-misleading-ai-listing-photos-130020137.html)
+*Below: sources useful for **editing throughput, studio economics, AI tooling, and truth-in-advertising** — applicable to ecommerce/product photographer-owners even when the publisher framed examples around other verticals.*
+
+- [5 Photography Niches Growing in 2026 — Fstoppers](https://fstoppers.com/business/where-money-going-5-photography-niches-growing-2026-900381) *(includes commercial/product demand signals)*
+- [Photo editing turnaround & outsourcing trade-offs — PhotoUp](https://www.photoup.net/learn/real-estate-photo-editing-for-speed) *(workflow lessons transfer to high-volume product catalogs)*
+- [High-volume batch editing — Imagen AI](https://imagen-ai.com/valuable-tips/real-estate-photo-editing/) *(throughput framing for photographer-led studios)*
+- [Photo editing outsourcing comparison — Esoft](https://esoft.com/resources/blog/top-5-real-estate-photo-editing-outsourcing-for-2026) *(cost vs. consistency — relevant to SKU studios)*
+- [VirtualStagingAI Reviews — Trustpilot](https://www.trustpilot.com/review/virtualstagingai.app) *(buyer expectations on AI-altered imagery — apply lessons to product depiction)*
+- [AI-altered imagery and consumer trust — Globe and Mail](https://www.theglobeandmail.com/investing/personal-finance/article-reality-check-how-ai-altered-images-are-duping-buyers-hunting-for/)
+- [AI disclosure / misleading photos — Yahoo Finance](https://finance.yahoo.com/news/weary-homebuyers-have-a-new-headache-misleading-ai-listing-photos-130020137.html) *(regulatory attention on altered visuals — parallel risk for ecommerce PDP assets)*
+
+**Replace / supplement** with ecommerce-native interviews (Shopify Plus merchants, Amazon sellers, creative ops leads) as primary research catches up to this ICP pivot.

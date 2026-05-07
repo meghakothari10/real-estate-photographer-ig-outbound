@@ -2,7 +2,7 @@
 
 ## Overview
 
-Automated Instagram DM outreach to real estate photographers and media companies. The agent works city by city, scraping Instagram search results, qualifying profiles, checking for prior contact, selecting the best-fit message, sending the DM, and logging everything to a CSV tracker.
+Automated Instagram DM outreach to ecommerce photographer-owners and related product photography studios/media companies. The agent works city by city, scraping Instagram search results, qualifying profiles, checking for prior contact, selecting the best-fit message, sending the DM, and logging everything to a CSV tracker.
 
 ---
 
@@ -11,7 +11,7 @@ Automated Instagram DM outreach to real estate photographers and media companies
 | Input | Example | Notes |
 |-------|---------|-------|
 | **City** | `Kansas City` | Used to construct search queries |
-| **Hashtag / search query** | `#realestatephotography #kansascityphotographer` | Agent constructs this from city + niche |
+| **Hashtag / search query** | `#ecommercephotography #productphotography #kansascityphotographer` | Agent constructs this from city + niche |
 
 ---
 
@@ -23,15 +23,15 @@ https://www.instagram.com/explore/search/keyword/?q=<query>
 ```
 
 Query strategy — combine niche + city signal:
-- Primary: `#realestatephotography` + city name variations
-- Secondary: `#[city]photographer`, `#[city]realestate`, `#[city]listing`
-- Fallback: `real estate photography [city]`
+- Primary: `#ecommercephotography`, `#productphotography` + city name variations
+- Secondary: `#[city]photographer`, `#[city]productphotographer`, `#[city]studiophotography`
+- Fallback: `ecommerce product photography [city]`
 
 Example for Kansas City:
 ```
-https://www.instagram.com/explore/search/keyword/?q=%23realestatephotographykansascity
+https://www.instagram.com/explore/search/keyword/?q=%23ecommercephotographykansascity
+https://www.instagram.com/explore/search/keyword/?q=%23kansascityproductphotographer
 https://www.instagram.com/explore/search/keyword/?q=%23kansascityphotographer
-https://www.instagram.com/explore/search/keyword/?q=%23kansascityrealestate
 ```
 
 Collect unique post URLs from the search results page. Extract profile handles from each post before visiting individual profiles.
@@ -66,17 +66,17 @@ Read the profile:
 
 | Signal | Qualifies | Does Not Qualify |
 |--------|-----------|-----------------|
-| Bio mentions real estate, listing, property photography | ✅ | General lifestyle, portrait, wedding only |
-| Posts show interior/exterior listing photos | ✅ | No property content visible |
-| Account type | Solo photographer, small studio, media company | Agent/broker, stager, unrelated business |
+| Bio mentions ecommerce, product, Amazon/Shopify, brand/catalog, PDP, studio product photography | ✅ | General lifestyle, portrait, wedding only (unless clearly also product) |
+| Posts show product-on-white, lifestyle product, catalog, brand shoots | ✅ | No product or ecommerce-related content visible |
+| Account type | Solo photographer-owner, small product studio, creative/media company serving brands | Unrelated retail brand account (not a photography service), unrelated business |
 | Follower range | 200 – 50,000 | <200 (likely inactive) or >100K (likely brand account) |
 | Location signal | Target city or nearby market | Clearly different market with no overlap |
 | Activity | Posted within last 90 days | Dormant account |
 
 **ICP segment to assign** (feeds Step 5):
-- `solo` — solo freelance RE photographer
-- `studio` — small RE photography studio (2-5 people)
-- `media_company` — RE media company (team, bundled services, drone, video mentioned)
+- `solo` — solo ecommerce photographer-owner (freelance product/catalog shooter)
+- `studio` — small ecommerce/product photography studio (2-5 people, photographer-owner led)
+- `media_company` — product or ecommerce media company (team, bundled photo/video for brands)
 
 If the profile does **not** qualify:
 - Log a row to `outreach-log.csv` with `status = disqualified` and `disqualify_reason`
@@ -104,7 +104,7 @@ Use the ICP segment from Step 2 and the offer mapping table from `calico-ai-offe
 Secondary signals that override offer selection:
 - Profile posts show heavy editing work → layer in Offer 3 (editing pain angle)
 - Profile bio or location mentions NY or CA → open with Offer 6 (compliance angle)
-- Profile has drone/video content already → use Offer 4 or 5 (scale or brokerage angle)
+- Profile has drone/video content already → use Offer 4 or 5 (scale or enterprise-brand angle)
 
 Replace `{{first_name}}` with the first name from the profile name field, or the handle if name is not available.
 
@@ -143,7 +143,7 @@ This mimics human pacing and reduces the risk of rate limiting or account flags.
 ## CSV Tracker
 
 **File:** `outreach-log.csv`  
-**Location:** Project root (`/Users/lucas/Desktop/projects/real-estate-photographer-ig-outbound/outreach-log.csv`)
+**Location:** Project root — `outreach-log.csv` beside this repo (path depends on your machine; clone folder recommended name: `ecommerce-photographer-ig-outbound`).
 
 **Schema:**
 ```

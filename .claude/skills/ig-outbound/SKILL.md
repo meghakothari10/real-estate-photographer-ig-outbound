@@ -1,7 +1,7 @@
 ---
 name: ig-outbound
 description: |
-  Run the Calico AI Instagram outbound process for a given city. Scrapes Instagram search results for real estate photographers, qualifies each profile against ICP criteria, checks for prior contact, selects the best-fit DM script, sends the message, logs to CSV, and waits a randomized 8-25 minutes before the next lead. Trigger by providing a city name (e.g. "Austin, Texas"). Source of truth: /Users/lucas/Desktop/projects/real-estate-photographer-ig-outbound/outbound-process.md
+  Run the Calico AI Instagram outbound process for a given city. Scrapes Instagram search results for ecommerce photographer-owners, qualifies each profile against ICP criteria, checks for prior contact, selects the best-fit DM script, sends the message, logs to CSV, and waits a randomized 8-25 minutes before the next lead. Trigger by providing a city name (e.g. "Austin, Texas"). Source of truth: outbound-process.md in this repo (path varies by machine).
 allowed-tools:
   - Bash
   - Read
@@ -13,10 +13,10 @@ allowed-tools:
 
 ## Role
 
-You are running the Calico AI Instagram outreach process. Your job is to find real estate photographers in the given city, qualify them against ICP criteria, avoid double-contacting anyone, select the right DM script, send it via the browser harness, log the result, and pace yourself to avoid triggering Instagram's rate limits.
+You are running the Calico AI Instagram outreach process. Your job is to find ecommerce photographer-owners in the given city, qualify them against ICP criteria, avoid double-contacting anyone, select the right DM script, send it via the browser harness, log the result, and pace yourself to avoid triggering Instagram's rate limits.
 
-**Project root:** `/Users/lucas/Desktop/projects/real-estate-photographer-ig-outbound/`
-**CSV tracker:** `/Users/lucas/Desktop/projects/real-estate-photographer-ig-outbound/outreach-log.csv`
+**Project root:** directory containing `outbound-process.md` (rename clone to `ecommerce-photographer-ig-outbound` if you want paths below verbatim).
+**CSV tracker:** `{project root}/outreach-log.csv`
 **Process spec:** `outbound-process.md` (already read — use this skill as the authoritative summary)
 **Offer scripts:** `calico-ai-offer-constructs.md`
 **ICP research:** `calico-ai-customer-research.md`
@@ -42,7 +42,7 @@ The user provides a city. Parse city name and state/region from it.
 ### 0b. Ensure CSV tracker exists
 ```python
 import csv, os
-CSV_PATH = "/Users/lucas/Desktop/projects/real-estate-photographer-ig-outbound/outreach-log.csv"
+CSV_PATH = os.path.abspath(os.path.join(os.getcwd(), "outreach-log.csv"))  # run from project root (folder with outbound-process.md)
 HEADERS = ["timestamp","username","profile_name","icp_segment","offer_used","message_sent","status","disqualify_reason","city"]
 if not os.path.exists(CSV_PATH):
     with open(CSV_PATH, "w", newline="") as f:
@@ -65,12 +65,12 @@ with open(CSV_PATH, newline="") as f:
 For a city like "Austin, Texas":
 - Slug variants: `austin`, `austintx`, `austintexas`
 - Queries to run (in order):
-  1. `#realestatephotographyaustin`
-  2. `#austinrealestatephotographer`
-  3. `#austinrealestatephotography`
+  1. `#ecommercephotographyaustin`
+  2. `#austinproductphotographer`
+  3. `#austinecommercephotography`
   4. `#austinphotographer`
-  5. `#austinrealestatelisting`
-  6. `real estate photography austin texas`
+  5. `#austinstudiophotography`
+  6. `ecommerce product photography austin texas`
 
 Construct Instagram search URLs:
 ```
@@ -85,7 +85,7 @@ Use the browser harness to load each search URL and extract profile handles from
 
 ```bash
 browser-harness <<'PY'
-new_tab("https://www.instagram.com/explore/search/keyword/?q=%23realestatephotographyaustin")
+new_tab("https://www.instagram.com/explore/search/keyword/?q=%23ecommercephotographyaustin")
 wait_for_load()
 import time; time.sleep(3)  # let JS render
 capture_screenshot("/tmp/ig_search.png")
@@ -141,17 +141,17 @@ Screenshot and read the profile carefully. Evaluate against ALL qualification cr
 
 | Signal | Qualifies | Does Not Qualify |
 |--------|-----------|-----------------|
-| Bio mentions real estate, listing, property photography | ✅ | General lifestyle, portrait, wedding only |
-| Posts show interior/exterior listing photos | ✅ | No property content visible |
-| Account type | Solo photographer, small studio, media company | Agent/broker, stager, unrelated business |
+| Bio mentions ecommerce, product, Amazon/Shopify, brand/catalog, PDP, studio product photography | ✅ | General lifestyle, portrait, wedding only (unless clearly also product) |
+| Posts show product-on-white, lifestyle product, catalog, brand shoots | ✅ | No product or ecommerce-related content visible |
+| Account type | Solo photographer-owner, small product studio, creative/media company serving brands | Unrelated retail brand account (not a photography service), unrelated business |
 | Follower range | 200–50,000 | <200 (likely inactive) or >100K (likely brand account) |
 | Location signal | Target city or nearby market | Clearly different market |
 | Activity | Posted within last 90 days | Dormant |
 
 **Assign ICP segment:**
-- `solo` — solo freelance RE photographer
-- `studio` — small RE photography studio (2-5 people)
-- `media_company` — RE media company (team, bundled services, drone, video)
+- `solo` — solo ecommerce photographer-owner (freelance product/catalog shooter)
+- `studio` — small ecommerce/product photography studio (2-5 people, photographer-owner led)
+- `media_company` — product or ecommerce media company (team, bundled photo/video for brands)
 
 If not qualified → log to CSV with `status=disqualified` and reason → continue to next handle.
 
@@ -188,7 +188,7 @@ If no conversation found → proceed to message selection.
 **Secondary signal overrides:**
 - Heavy editing content visible → layer in Offer 3 (editing pain angle)
 - Profile bio/location mentions NY or CA → use Offer 6 (compliance angle) as opener
-- Drone/video content already present → use Offer 4 or 5
+- Drone/video content already present → use Offer 4 or 5 (scale or enterprise-brand angle)
 
 **Alternate between A and B versions** across sends to vary wording.
 

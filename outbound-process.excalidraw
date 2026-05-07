@@ -5,7 +5,7 @@
   "elements": [
     {"type":"text","id":"ttl","x":258,"y":10,"text":"Calico AI — Instagram Outbound Process","fontSize":22,"strokeColor":"#ffffff","roughness":1,"opacity":100},
     {"type":"ellipse","id":"city","x":310,"y":65,"width":220,"height":60,"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1e1e1e","strokeWidth":2,"roughness":1,"opacity":100},
-    {"type":"text","id":"t_city","x":340,"y":87,"text":"Specify City + Query","fontSize":16,"strokeColor":"#ffffff","roughness":1,"opacity":100},
+    {"type":"text","id":"t_city","x":340,"y":87,"text":"Specify City + Ecommerce Query","fontSize":16,"strokeColor":"#ffffff","roughness":1,"opacity":100},
     {"type":"arrow","id":"a1","x":420,"y":125,"width":0,"height":35,"points":[[0,0],[0,35]],"endArrowhead":"arrow","strokeColor":"#1e1e1e","strokeWidth":2,"roughness":1,"opacity":100},
     {"type":"rectangle","id":"build_url","x":310,"y":160,"width":220,"height":65,"backgroundColor":"#d0bfff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#1e1e1e","strokeWidth":2,"roughness":1,"opacity":100},
     {"type":"text","id":"t_build","x":363,"y":173,"text":"Build Instagram\nSearch URL","fontSize":16,"strokeColor":"#ffffff","roughness":1,"opacity":100},
