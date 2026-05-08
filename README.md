@@ -1,14 +1,11 @@
-# ecommerce-photographer-ig-outbound
+# Real Estate Photographer IG Outbound Agent
 
-Instagram outbound playbook for **ecommerce photographer-owners** and product-focused studios: city-based hashtag search, ICP qualification, DM scripts, and CSV logging.
+This repository powers our Instagram outbound agent for Calico AI: a system for finding qualified real estate photographers in a target city, sending personalized DMs, and running a repeatable outreach workflow with strict safety pacing.
 
-**Recommended:** Rename your local clone folder to `ecommerce-photographer-ig-outbound` so paths in `.claude/skills/ig-outbound/SKILL.md` match your disk layout (or edit `CSV_PATH` / project root there to your actual path).
+- Identify qualified real estate photographers in a specific market
+- Apply ICP filters before any outreach to protect message quality
+- Select segment-specific DM scripts based on offer constructs
+- Prevent duplicate outreach via CSV + inbox checks
+- Keep outreach logs and process documentation organized for continuous iteration
 
-## Files
-
-| File | Role |
-|------|------|
-| `outbound-process.md` | End-to-end process (queries → qualify → DM → log) |
-| `calico-ai-customer-research.md` | ICP themes and personas (ecommerce / product) |
-| `calico-ai-offer-constructs.md` | Offers and DM scripts |
-| `outreach-log.csv` | Send tracker |
+Built for repeatable, operator-safe outbound execution.
